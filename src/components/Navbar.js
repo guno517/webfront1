@@ -18,7 +18,7 @@ function Navbar() {
                         MARIO <FontAwesomeIcon icon={faPaw} />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
-                        <FontAwesomeIcon icon={click ? faTimes : faBars} /> {/*클릭시 아이콘 변경*/}
+                        <FontAwesomeIcon icon={click ? faTimes : faBars} /> {/*클릭시 값에 따라 아이콘 변경*/}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
