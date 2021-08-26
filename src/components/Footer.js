@@ -67,23 +67,19 @@ function Footer() {
                         </Link>
                     </div>
                     <small className="website-rights">MARIO 2021</small>
-                    <div className="social-icons">
+                    <div className='social-icons'>
                         <Link className="social-icon-link facebook" 
                         to='/' 
                         target='_blank' 
                         aria-label='Facebook'>
                             <FontAwesomeIcon icon={faFacebookF} />
                         </Link>
-                    </div>
-                    <div className="social-icons">
                         <Link className="social-icon-link instagram" 
                         to='/' 
                         target='_blank' 
                         aria-label='Instagram'>
                             <FontAwesomeIcon icon={faInstagram} />
                         </Link>
-                    </div>
-                    <div className="social-icons">
                         <Link className="social-icon-link twitter" 
                         to='/' 
                         target='_blank' 
